@@ -1,10 +1,18 @@
 package vista;
 
+import modelo.Funciones;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		welcome();
+		Funciones.menu();
+
+	}
+	public static void welcome() {
+		
+		System.out.println("BIENVENIDO A LA LIBRERIA PEPE");
 	}
 
 }
