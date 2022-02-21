@@ -5,16 +5,21 @@ public class Publicacion {
 	private double precio;
 	private int numeroDeUnidades;
 	
+
 //	contructor vacio
 	public Publicacion() {
 
+		
 	}
+	
+	
 // 	Constructor con parametros 
 	public Publicacion(double precio, int numeroDeUnidades) {
-		super();
 		this.precio = precio;
 		this.numeroDeUnidades = numeroDeUnidades;
 	}
+	
+	
 // toString del super()
 	@Override
 	public String toString() {
@@ -36,5 +41,6 @@ public class Publicacion {
 	public void setNumeroDeUnidades(int numeroDeUnidades) {
 		this.numeroDeUnidades = numeroDeUnidades;
 	}
-
+	
+	
 }
