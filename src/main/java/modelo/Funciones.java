@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import controlador.keyboardControl;
 
 public class Funciones {
-
+	
 	public static ArrayList<Publicacion> libreria = new ArrayList<>();
 	public static double importeLibros = 0;
 	public static double importePeriodicos = 0;
@@ -68,7 +68,9 @@ public class Funciones {
 		System.out.println("4.- RECEPCION DE PEDIDO");
 		System.out.println("5.- FACTURACION DE LIBROS Y PERIODICOS");
 		System.out.println("6.- SALIR ");
+		System.out.println("Soy iker");
 	}
+	
 
 	public static void nuevaPublicacion() {
 		final String PERIODICO = "periodico";
